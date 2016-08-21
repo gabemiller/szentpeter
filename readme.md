@@ -1,3 +1,3 @@
-# The Trait
+# Szentpeter.hu
 
 
