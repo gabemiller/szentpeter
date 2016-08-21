@@ -1,3 +1,3 @@
-# Szentpeter.hu
+# Szentpeter
 
 
