@@ -4952,8 +4952,17 @@ h6 {
 .maintenance-box {
   -ms-flex: 1 0 100%;
   flex: 1 0 100%;
-  text-align: center; }
-  .maintenance-box h1, .maintenance-box p {
-    text-align: center; }
+  display: block; }
+  .maintenance-box .maintenance-image {
+    display: block;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 350px;
+    margin-bottom: 20px; }
+  .maintenance-box .maintenance-text {
+    display: block; }
+    .maintenance-box .maintenance-text h1, .maintenance-box .maintenance-text p {
+      text-align: center; }
 
 /*# sourceMappingURL=app.css.map */
