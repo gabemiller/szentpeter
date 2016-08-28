@@ -1,7 +1,21 @@
-.maintenance-box{
+.maintenance-box {
   flex: 1 0 100%;
-  text-align: center;
-  h1,p{
-    text-align: center;
+  display: block;
+
+  .maintenance-image {
+    display: block;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 350px;
+    margin-bottom: 20px;
   }
+
+  .maintenance-text {
+    display: block;
+    h1, p {
+      text-align: center;
+    }
+  }
+
 }
